@@ -1,0 +1,1035 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1234</width>
+    <height>573</height>
+   </rect>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::NoFocus</enum>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="affich">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>210</y>
+      <width>431</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 85, 255);
+font: 81 24pt &quot;Rockwell Extra Bold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Afficher Emploie</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="emploie">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>310</y>
+      <width>1201</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTableView
+{
+    color: &quot;blue&quot;;
+    border: 5px solid rgb(0, 85, 255);
+    background: &quot;white&quot;;
+    gridline-color: rgb(0, 85, 255);
+}
+QTableView::item
+{
+    background: &quot;white&quot;;
+}
+</string>
+    </property>
+    <row>
+     <property name="text">
+      <string>Lundi</string>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Mardi</string>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Mercredi</string>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Jeudi</string>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Vendredi</string>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Samedi</string>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>8h -9h</string>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>9h -10h</string>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>10h -11h</string>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>11h -12h</string>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>12h -13h</string>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>13h -14h</string>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>15h -16h</string>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>16h -17h</string>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>17h -18h</string>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="0" column="1">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="0" column="2">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="0" column="3">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="0" column="4">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="0" column="5">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="0" column="6">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="0" column="7">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="0" column="8">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="1" column="0">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="1" column="1">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="1" column="2">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="1" column="3">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="1" column="4">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="1" column="5">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="1" column="6">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="1" column="7">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="1" column="8">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="2" column="0">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="2" column="1">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="2" column="2">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="2" column="3">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="2" column="4">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="2" column="5">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="2" column="6">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="2" column="7">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="2" column="8">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="3" column="0">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="3" column="1">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="3" column="2">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="3" column="3">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="3" column="4">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="3" column="5">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="3" column="6">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="3" column="7">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="3" column="8">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="4" column="0">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="4" column="1">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="4" column="2">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="4" column="3">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="4" column="4">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="4" column="5">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="4" column="6">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="4" column="7">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="4" column="8">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="5" column="0">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="5" column="1">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="5" column="2">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="5" column="3">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="5" column="4">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="5" column="5">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="5" column="6">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="5" column="7">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="5" column="8">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="flags">
+      <set>ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>190</y>
+      <width>1231</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>280</y>
+      <width>1231</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="year">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>60</y>
+      <width>271</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>361</width>
+      <height>61</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 85, 255);
+font: 81 18pt &quot;Rockwell Extra Bold&quot;;
+</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Selectionner</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>446</x>
+      <y>-20</y>
+      <width>471</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+font: 36pt &quot;Wide Latin&quot;;
+color: rgb(0, 85, 255);</string>
+    </property>
+    <property name="text">
+     <string>Emploie</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-10</y>
+      <width>1231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 36pt &quot;Wide Latin&quot;;
+color: rgb(0, 85, 255);</string>
+    </property>
+    <property name="text">
+     <string>_____________________________________________________________________________________________________________________________________________</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="effacer">
+    <property name="geometry">
+     <rect>
+      <x>1050</x>
+      <y>50</y>
+      <width>161</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 150, 255);
+font: 81 16pt &quot;Rockwell Extra Bold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Effacer</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sauv">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>210</y>
+      <width>521</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 85, 255);
+font: 81 24pt &quot;Rockwell Extra Bold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Sauvgarder Emploie</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ajouter">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>161</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 150, 255);
+font: 81 16pt &quot;Rockwell Extra Bold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Ajouter</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="nouv">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>130</y>
+      <width>351</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="statusTip">
+     <string/>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 85, 255);
+font: 81 18pt &quot;Rockwell Extra Bold&quot;;
+</string>
+    </property>
+    <property name="inputMask">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>Emploie a Ajouter</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="vider">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>210</y>
+      <width>231</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 85, 255);
+font: 81 15pt &quot;Rockwell Extra Bold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Vider Tableau</string>
+    </property>
+   </widget>
+  </widget>
+  <action name="actionAjouter_Un_Emploie">
+   <property name="text">
+    <string>Ajouter Un Emploie</string>
+   </property>
+  </action>
+  <action name="actionModifier_Un_Emploie">
+   <property name="text">
+    <string>Modifier Un Emploie</string>
+   </property>
+  </action>
+  <action name="actionEffacer_Un_Emploie">
+   <property name="text">
+    <string>Effacer Un Emploie</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
